@@ -6,6 +6,9 @@ has_lua=$(lua -v)
 has_luarocks=$(luarocks --version)
 [[ -z $has_luarocks ]] && echo "luarocks is not installed" && exit 1
 
+echo "installing json-lua luarocks"
+luarocks install json-lua
+
 echo "creating a local directory on home"
 mkdir -p ~/.local
 
