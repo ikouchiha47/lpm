@@ -8,6 +8,7 @@ This is based on `luarocks`.
 
 - lua 5.1+
 - luarocks
+- luarocks install json-lua
 - bash
 
 ### Installation
@@ -48,3 +49,4 @@ and then run `lpm`
 
 - improve distribution, make it standalone
 - add cli commands like `install`, `remove`
+- support non-unix platform
