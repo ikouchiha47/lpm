@@ -48,4 +48,5 @@ and then run `lpm`
 
 - improve distribution, make it standalone
 - add cli commands like `install`, `remove`
+- add semantic version
 - support non-unix platform
